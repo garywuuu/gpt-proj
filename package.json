@@ -2,6 +2,7 @@
   "name": "scratchpad",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,9 +15,16 @@
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^6.5.1",
-    "next": "13.0.3",
-    "openai": "^3.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+    "kill-port": "^2.0.1",
+    "next": "^13.2.4",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "yarn": "^1.22.19"
+  },
+  "description": "This is the starter template for the [build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer) project.",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
